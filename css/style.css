@@ -6,7 +6,7 @@
 
 .main_width {
   width: 100%;
-  max-width: 900px;
+  max-width: 1056px;
   margin: 0 auto;
 }
 .row::after{
@@ -23,13 +23,12 @@
 header {
   background: #000;
   color: #fff;
-  min-height: 20px;
-  padding: 8px 0;
-  border: 1px solid red;
+  min-height: 40px;
+  padding: 11px 0;
 }
 header h4 {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 15px;
 }
 header span {
@@ -46,7 +45,87 @@ header nav.col {
 header a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 15px;
   margin:0 15px;
+}
+
+/* MAIN CONTENT */
+section {
+
+}
+section.main_content {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,bfb8b1+100 */
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(191,184,177,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(191,184,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(191,184,177,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bfb8b1',GradientType=0 ); /* IE6-9 */
+}
+section.main_content .col {
+  min-height: 500px;
+}
+section.main_content .extreme {
+  position: relative;
+  width: 5%;
+}
+section.main_content .inside_left {
+  width: 38%;
+  position: relative;
+}section.main_content .inside_right {
+  position: relative;
+  width: 52%;
+  padding-top: 130px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 130px;
+}
+section.main_content .arrow {
+  position: absolute;
+  top: 240px;
+  left: 7px;
+  font-size: 75px;
+  color: #00e6b8;
+}
+#black_chair {
+  position: absolute;
+  top: 65px;
+  left: -100px;
+  width: 600px;
+}
+section.main_content h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+section.main_content span {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #00e6b8;
+}
+section.main_content p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 22px;
+}
+section.main_content .button{
+  font-size: 1.3rem;
+  padding: 16px;
+  position: absolute;
+  width: 260px;
+  height: 55px;
+  background: #00e6b8;
+  text-align: center;
+  text-transform: uppercase;
+  left: 125px;
+  color: white;
+  border-radius: 8px;
+}
+section.main_content .button a {
+  color: white;
+  text-decoration: none;
 }
