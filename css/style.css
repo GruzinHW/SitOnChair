@@ -3,3 +3,50 @@
 }
 
 /* COMMON */
+
+.main_width {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.row::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.col {
+  float: left;
+}
+
+/* HEADER */
+
+header {
+  background: #000;
+  color: #fff;
+  min-height: 20px;
+  padding: 8px 0;
+  border: 1px solid red;
+}
+header h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+header span {
+  color: #00e6b8;
+  font-weight: bold;
+}
+header li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+header nav.col {
+  float: right;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin:0 15px;
+}
