@@ -132,6 +132,7 @@ section.main_content .button a {
 
 section.main_boxes {
   background: #fff;
+  margin-bottom: 73px;
 }
 section.main_boxes .col {
   width: 33.33%;
@@ -175,6 +176,110 @@ section.main_boxes .box_2 :nth-child(3) {
   font-weight: 300;
 }
 section.main_boxes .box_2 :nth-child(4) {
-  margin-top: 17px;
+  margin-top: 15px;
   font-weight: 300;
+}
+/* PRICE LIST */
+
+section.price_list {
+  //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,ffffff+79 */
+  background: rgb(234,234,234); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 79%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 79%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  min-height: 720px;
+  padding-top: 40px;
+  font-size: 1.4rem;
+}
+section.price_list p {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+section.price_list .bottom_line_long {
+  background: #00e6b8;
+  height: 8px;
+  width: 320px;
+}
+.col_price {
+  float: left;
+}
+section.price_list .col_price {
+  width: 33.33%;
+  min-height: 580px;
+  padding: 45px 0px;
+  margin-top: 20px;
+}
+section.price_list .box_price_grey {
+  padding-top: 35px;
+  position: relative;
+  border: 2px solid lightgrey;
+  background: #fff;
+  width: 330px;
+  height: 500px;
+  text-align: center;
+}
+section.price_list .box_price_green {
+  padding-top: 35px;
+  position: relative;
+  border: 2px solid #00e6b8;
+  background: #00e6b8;
+  width: 330px;
+  height: 500px;
+  text-align: center;
+}
+section.price_list .circle_white {
+  background: #fff;
+  position: absolute;
+  top:-40px;
+  left: 135px;
+  height: 60px;
+  width: 60px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  padding-top: 13px;
+}
+section.price_list .circle_green {
+  background: #fff;
+  position: absolute;
+  top:-40px;
+  left: 135px;
+  height: 60px;
+  width: 60px;
+  border: 2px solid #00e6b8;
+  border-radius: 50%;
+  padding: 13px;
+}
+section.price_list .circle_grey_small {
+  background: lightgrey;
+  margin: 0 auto;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+section.price_list .circle_white_small {
+  background: #00e6b8;
+  margin: 0 auto;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+section.price_list .col_price:nth-child(2n+1) {
+  color: #00e6b8;
+  text-transform: uppercase;
+}
+section.price_list .col_price:nth-child(2) {
+  color: #fff;
+  text-transform: uppercase;
+}
+section.price_list .circle_white_big {
+  background: #fff;
+  margin: 30px auto;
+  height: 130px;
+  width: 130px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+
 }
