@@ -72,7 +72,8 @@ section.main_content .extreme {
 section.main_content .inside_left {
   width: 38%;
   position: relative;
-}section.main_content .inside_right {
+}
+section.main_content .inside_right {
   position: relative;
   width: 52%;
   padding-top: 130px;
@@ -94,6 +95,7 @@ section.main_content .arrow {
   width: 600px;
 }
 section.main_content h1 {
+  text-align: center;
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 500;
@@ -189,28 +191,33 @@ section.price_list {
   background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   min-height: 720px;
-  padding-top: 40px;
+  padding-top: 10px;
   font-size: 1.4rem;
 }
 section.price_list p {
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 300;
-  margin-bottom: 8px;
+  margin-top: 30px;
+  }
+
+  section.price_list h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+
 }
 section.price_list .bottom_line_long {
   background: #00e6b8;
   height: 8px;
   width: 320px;
 }
-.col_price {
-  float: left;
-}
+
 section.price_list .col_price {
   width: 33.33%;
   min-height: 580px;
   padding: 45px 0px;
   margin-top: 20px;
+  float: left;
 }
 section.price_list .box_price_grey {
   padding-top: 35px;
@@ -267,8 +274,9 @@ section.price_list .circle_white_small {
   border-radius: 50%;
 }
 section.price_list .col_price:nth-child(2n+1) {
-  color: #00e6b8;
+  color: lightgrey;
   text-transform: uppercase;
+
 }
 section.price_list .col_price:nth-child(2) {
   color: #fff;
@@ -281,5 +289,134 @@ section.price_list .circle_white_big {
   width: 130px;
   border: 2px solid lightgrey;
   border-radius: 50%;
+}
+section.price_list .price_1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+section.price_list .price_2 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #00e6b8;
+}
+section.price_list .purchase_1 {
+    padding: 8px 0;
+    background: lightgrey;
+    color: darkgrey;
+    height: 40px;
+    text-transform: none;
+}
+section.price_list .serwis_1 {
+    background: #ebebe0;
+    padding: 8px 0;
+    color: darkgrey;
+    height: 40px;
+    text-transform: none;
+}
+section.price_list .serwis_2 {
+    background: #fff;
+    padding: 8px 0;
+    color: darkgrey;
+    height: 40px;
+    text-transform: none;
+}
+section.price_list .purchase_2 {
+    padding: 8px 0;
+    background: #fff;
+    color: darkgrey;
+    height: 40px;
+    text-transform: none;
+}
 
+/* CONTACT */
+
+section.contact {
+  background: #fff;
+  min-height: 500px;
+  padding-top: 10px;
+}
+section.contact .bottom_line_long {
+  background: #00e6b8;
+  height: 8px;
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.contact_title {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.contact_form label {
+    display: none;
+}
+
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+.contact_form textarea {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #A1E6D1;
+    height: 65px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 28px;
+    font-weight: 300;
+    font-size: 24px;
+}
+.contact_form textarea {
+    height: 195px;
+    resize: none;
+}
+.contact_form input[type="text"]:focus,
+.contact_form input[type="email"]:focus,
+.contact_form textarea:focus {
+    border-color: #38C3AD;
+    box-shadow: inset 0 0 0 1px #38C3AD;
+    outline: none;
+}
+.contact_col_left {
+    width: 60%;
+    float: left;
+}
+.contact_col_right {
+    width: 40%;
+    float: right;
+}
+.red_chair {
+    padding: 0px 30px 0px 100px;
+}
+.contact_form .checkbox {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.contact_form .checkbox_icon  {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #A1E6D1;
+    display: inline-block;
+    background: url(../images/form_ok.jpg) center center no-repeat;
+}
+.contact_form .checkbox_text {
+    display: inline-block;
+    width: calc(100% - 70px);
+    vertical-align: top;
+    padding: 5px 0 0 5px;
+    color: #AAA;
+    font-size: 1.2rem;
+}
+.contact_form .submit_button {
+    font-size: 26px;
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 80%; /* albo display block */
+    color: white;
+    text-decoration: none;
+    background: #38C3AD;
+    border: 1px solid #38C3AD;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
 }

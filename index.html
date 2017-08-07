@@ -11,7 +11,9 @@
      <header>
        <div class="main_width">
          <div class="row">
-           <h4 class="col">Sit <span>On</span> Chair</h4>
+           <h4 class="col">
+               Sit <span>On</span> Chair
+           </h4>
            <nav class="col">
              <ul>
                <li><a href="#">O firmie</a></li>
@@ -26,7 +28,7 @@
        <div class="main_width">
          <div class="row">
            <div class="col extreme">
-             <p class="arrow"> < </p>
+             <p class="arrow"> &lt; </p>
            </div>
            <div class="col inside_left">
              <div id="black_chair">
@@ -46,7 +48,7 @@
             </div>
            </div>
            <div class="col extreme">
-             <p class="arrow"> > </p>
+             <p class="arrow"> &gt; </p>
            </div>
          </div>
        </div>
@@ -112,8 +114,14 @@
                </div>
                <h3>Basic Plan</h3>
                <div class="circle_white_big">
-                 <p>85 <sup>22</sup></p>
+                 <p class="price_1">85 <sup class="price_1">22</sup></p>
                  <p>PLN/MSC</p>
+               </div>
+               <div class="purchase_1">
+                Zakup Towaru + dowóz
+               </div>
+               <div class="serwis_1">
+                Serwis
                </div>
              </div>
            </div>
@@ -125,8 +133,17 @@
                </div>
                <h3>Standard Plan</h3>
                <div class="circle_white_big">
-                 <p>95 <sup>99</sup></p>
+                 <p class="price_2">95 <sup class="price_2">99</sup></p>
                  <p>PLN/MSC</p>
+               </div>
+               <div class="purchase_2">
+                Zakup Towaru + dowóz
+               </div>
+               <div class="serwis_1">
+                Serwis
+               </div>
+               <div class="serwis_2">
+                Gwarancja 5 lat
                </div>
              </div>
            </div>
@@ -138,13 +155,66 @@
                </div>
                <h3>Advanced Plan</h3>
                <div class="circle_white_big">
-                 <p>211 <sup>00</sup></p>
+                 <p class="price_1">211 <sup class="price_1">00</sup></p>
                  <p>PLN/MSC</p>
+               </div>
+               <div class="purchase_1">
+                Zakup Towaru + dowóz
+               </div>
+               <div class="serwis_1">
+                Serwis
+               </div>
+               <div class="purchase_1">
+                Gwarancja 6 lat
+               </div>
+               <div class="serwis_1">
+                Porady Projektanta
                </div>
              </div>
            </div>
          </div>
        </div>
+     </section>
+     <section class="contact">
+        <div class="main_width">
+            <h2 class="contact_title">
+                <span>Kontakt</span>
+            </h2>
+            <div class="bottom_line_long">
+
+            </div>
+            <form class="contact_form" action="" method="post">
+                <div class="row">
+                    <div class="contact_col_left">
+                        <div class="">
+                            <label for="formName">Imię</label>
+                            <input type="text" name="name" value="" placeholder="Imię" id="formName">
+                        </div>
+                        <div class="">
+                            <label for="formEmail">Email</label>
+                            <input type="text" name="email" value="" placeholder="Email" id="formEmail">
+                        </div>
+                        <div class="">
+                            <label for="formMessage">Wiadomości</label>
+                        <textarea name="message" id="formMessage" placeholder="Wiadomosć"></textarea>
+                        </div>
+                    </div>
+                    <div class="contact_col_right">
+                        <div class="red_chair">
+                            <img src="images/red_chair.png" alt="">
+                        </div>
+                        <div class="checkbox">
+                            <label for="formCheckbox">Zgoda</label>
+                            <input class="checkbox_icon" type="checkbox" name="" value="">
+                            <span class="checkbox_text">Zgadzam się na przetwarzanie danych osobowych</span>
+                        </div>
+                        <div>
+                            <button type="submit" class="submit_button">Wyślij</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
      </section>
   </body>
 </html>
