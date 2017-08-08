@@ -420,3 +420,28 @@ section.contact .bottom_line_long {
     text-align: center;
     cursor: pointer;
 }
+
+/* FOOTER */
+
+.footer_all {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer_all .copyright {
+    font-size: 16px;
+    color: #9B9B9B;
+}
+
+.footer_col_left {
+    width: 50%;
+    float: left;
+}
+.footer_col_right {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.footer_all .footer_col_right .social_icons {
+    display: inline-block;
+}
